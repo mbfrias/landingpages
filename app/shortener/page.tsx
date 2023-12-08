@@ -27,7 +27,11 @@ export default function Shortener({ searchParams }: any) {
                             for example, <Link href="./shortener?domain=mvrt.in" className="text-blue-500 underline hover:no-underline">?domain=mvrt.in</Link> would make the title of this page <code>mvrt.in - a url shortener</code> and the description <code>mvrt.in is a url shortener</code>.
                         </p>
                     ) : (' ')}
-                    
+                    {(domain === "mvrt.in") ? (
+                        <p className="text-lg font-medium">
+                            <Link href="https://marrtin.com" className="text-blue-500 underline hover:no-underline">visit marrtin.com</Link>
+                        </p>
+                    ) : (' ')}
                 </div>
             </div>
         </>

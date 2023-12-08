@@ -27,7 +27,6 @@ export default function Parked({ searchParams }: any) {
                             for example, <Link href="./parked?domain=marrtin.com" className="text-blue-500 underline hover:no-underline">?domain=marrtin.com</Link> would make the title of this page <code>marrtin.com - parked domain</code> and the description <code>marrtin.com is a parked domain</code>.
                         </p>
                     ) : (' ')}
-                    
                 </div>
             </div>
         </>
