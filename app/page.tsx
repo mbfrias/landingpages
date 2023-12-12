@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.gstatic.com"/>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
       </Head>
-      <div className="bg-slate-900 text-center">
+      <div className="bg-slate-900 text-slate-100 text-center">
         {/* dont forget im using tailwindcss */}
         <div className="flex flex-col justify-center items-center h-screen">
           <h1 className="text-4xl font-bold">good morning.</h1>
