@@ -15,7 +15,7 @@ export default function Parked({ searchParams }: any) {
                 <link rel="preconnect" href="https://fonts.gstatic.com"/>
                 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
             </Head>
-            <div className="bg-slate-900 text-center">
+            <div className="bg-slate-900 text-slate-100 text-center">
                 <div className="flex flex-col justify-center items-center h-screen">
                     <h1 className="text-4xl font-bold">{domain}</h1>
                     <p className="text-lg font-medium">
