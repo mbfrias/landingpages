@@ -24,7 +24,7 @@ export default function Parked({ searchParams }: any) {
                     {(domain === 'example.com') ? (
                         <p className="text-lg font-medium">
                             example.com is an example domain. this landing page is designed for unrestricted use with any domain by simply adding a <code>domain</code> url parameter. <br/>
-                            for example, <Link href="./parked?domain=marrtin.com" className="text-blue-500 underline hover:no-underline">?domain=marrtin.com</Link> would make the title of this page <code>marrtin.com - parked domain</code> and the description <code>marrtin.com is a parked domain</code>.
+                            for example, <Link href="./parked?domain=mbfrias.com" className="text-blue-500 underline hover:no-underline">?domain=mbfrias.com</Link> would make the title of this page <code>mbfrias.com - parked domain</code> and the description <code>mbfrias.com is a parked domain</code>.
                         </p>
                     ) : (' ')}
                 </div>
